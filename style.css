@@ -12,7 +12,7 @@
       rgba(0, 0, 0, 0.5) 100%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url("https://source.unsplash.com/random/1000x500");
+    url("https://source.unsplash.com/random/1000x240");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -89,12 +89,24 @@ a.text-italic:hover {
 }
 
 @media (max-width: 900px) {
+  .banner-bg-image {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://source.unsplash.com/random/1000x240");
+  }
   .container {
     width: 700px;
   }
 }
 @media (max-width: 750px) {
   .banner-bg-image {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://source.unsplash.com/random/1000x240");
     padding: 60px 0px;
   }
   .container {
@@ -107,6 +119,11 @@ a.text-italic:hover {
 }
 @media (max-width: 500px) {
   .banner-bg-image {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5) 100%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url("https://source.unsplash.com/random/1000x240");
     padding: 40px 0px;
   }
   .container {
